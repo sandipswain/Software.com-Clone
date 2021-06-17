@@ -34,6 +34,8 @@
 }
 
 .nav {
+  transform: translateX(-12rem);
+
   &__list {
     height: 9rem;
     display: flex;
@@ -55,13 +57,36 @@
 
 .user-nav {
   height: 9rem;
-  width: 12rem;
+  width: 14rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: $color-white;
+  cursor: pointer;
 
   &--box {
     font-size: 1.6rem;
+  }
+}
+
+.btn-effect {
+  &-dark {  
+    padding: 1rem;
+    transition: all 0.5s;
+    border-radius: 0.5rem;
+    &:hover {
+      background-color: rgba(48,54,77,0.2);
+    }
+  }
+  
+  &-light {
+    padding: 1rem;
+    transition: all 0.5s;
+    border-radius: 0.5rem;
+    background-color: #68c0ff;
+  
+    &:hover {
+      box-shadow: 0.5rem 0.5rem 0.3rem rgba($color: #000000, $alpha: 0.2);
+    }
   }
 }
