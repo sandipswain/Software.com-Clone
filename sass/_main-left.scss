@@ -2,13 +2,14 @@
   height: 100vh;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   background-color: $color-primary;
+  padding-top: 10rem;
 }
 
 .heading {
-  padding: 2rem 0 0 2rem;
-  height: 38rem;
+  padding: 4rem 0 0 2rem;
+  height: 32rem;
   width: 55rem;
   color: $color-white;
 }
