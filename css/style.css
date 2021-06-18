@@ -223,3 +223,21 @@ body {
 
 .time {
   color: #888; }
+
+.icons {
+  background-color: #0896fc; }
+  .icons-txt {
+    font-size: 1.6rem;
+    color: #fff;
+    text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 1px; }
+  .icons__img {
+    display: flex;
+    width: 60vw;
+    justify-content: space-around;
+    margin: 0 auto; }
+    .icons__img--svg {
+      margin: 5rem 0; }
+      .icons__img--svg-p {
+        height: 6rem; }

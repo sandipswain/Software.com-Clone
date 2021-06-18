@@ -1,0 +1,22 @@
+.icons {
+  background-color: $color-primary;
+  &-txt {
+    font-size: 1.6rem;
+    color: $color-white;
+    text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+  }
+  &__img {
+    display: flex;
+    width: 60vw;
+    justify-content: space-around;
+    margin: 0 auto;
+    &--svg {
+      margin: 5rem 0;
+      &-p {
+        height: 6rem;
+      }
+    }
+  }
+}
