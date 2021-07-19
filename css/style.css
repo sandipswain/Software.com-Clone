@@ -289,14 +289,39 @@ body {
     position: relative;
     top: 26rem;
     width: 80%;
-    height: 50rem;
+    height: 55rem;
     display: flex;
     justify-content: space-between; }
     .love__software--cards-card {
       background-color: #fff;
       width: 31%;
       height: 100%;
-      border-radius: 10px; }
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 5rem 3rem 3rem 3rem;
+      box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+      transition: all 0.4s; }
+      .love__software--cards-card-img {
+        width: 60%; }
+      .love__software--cards-card-1-img {
+        width: 80%; }
+      .love__software--cards-card-2-img {
+        width: 70%; }
+      .love__software--cards-card--txt {
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: #494747;
+        padding: 4rem 3rem 2rem 3rem;
+        text-align: center; }
+      .love__software--cards-card--subtxt {
+        padding: 0rem 1.5rem 2rem 1.5rem;
+        font-size: 1.67rem;
+        font-weight: 500;
+        color: #808080;
+        text-align: center;
+        line-height: 2.5rem; }
   .love__software-btn {
     position: relative;
     top: 32rem;
@@ -304,4 +329,12 @@ body {
     color: #fff;
     background-color: #0896fc;
     padding: 1.8rem;
-    border-radius: 4px; }
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.4s; }
+  .love__software-btn:hover, .love__software--cards-card:hover {
+    transform: translateY(-0.3rem); }
+  .love__software-btn:hover::after {
+    /* Scale increases the size of the element */
+    transform: scaleX(2) scaleY(2);
+    box-shadow: 0 3rem -3rem rgba(0, 0, 0, 0.5); }
