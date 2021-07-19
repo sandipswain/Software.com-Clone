@@ -241,3 +241,67 @@ body {
       margin: 5rem 0; }
       .icons__img--svg-p {
         height: 6rem; }
+
+.love__software {
+  width: 100%;
+  height: 115rem;
+  background-color: #eff3f3;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .love__software--tag {
+    position: relative;
+    top: 12rem;
+    background-color: #e0f0ef;
+    width: 13rem;
+    height: 3rem; }
+    .love__software--tag-txt {
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #0896fc;
+      font-size: 1.2rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-align: center;
+      height: 3rem;
+      width: 13rem; }
+  .love__software--mainheading {
+    position: relative;
+    top: 15rem; }
+    .love__software--mainheading-txt {
+      font-size: 4rem;
+      font-weight: 600;
+      color: #494747; }
+  .love__software--subheading {
+    position: relative;
+    top: 18rem;
+    display: flex;
+    justify-content: center;
+    word-spacing: 2px;
+    color: #808080; }
+    .love__software--subheading-txt {
+      font-size: 2.2rem;
+      width: 51%;
+      line-height: 3rem; }
+  .love__software--cards {
+    position: relative;
+    top: 26rem;
+    width: 80%;
+    height: 50rem;
+    display: flex;
+    justify-content: space-between; }
+    .love__software--cards-card {
+      background-color: #fff;
+      width: 31%;
+      height: 100%;
+      border-radius: 10px; }
+  .love__software-btn {
+    position: relative;
+    top: 32rem;
+    font-size: 1.8rem;
+    color: #fff;
+    background-color: #0896fc;
+    padding: 1.8rem;
+    border-radius: 4px; }
