@@ -1,0 +1,106 @@
+.platform {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20rem;
+}
+
+.head--platform {
+  padding: 0.8rem 1.2rem;
+  border-radius: 5px;
+  background-color: #e3f1ff;
+  color: #0896fc;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 10rem 0 1.5rem 0;
+}
+
+.hero--head {
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+.hero--desc {
+  margin-top: 1.4rem;
+  font-size: 2rem;
+  color: #798c99;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.subscription {
+  margin-top: 2.4rem;
+  padding: 1.4rem;
+}
+
+.email {
+    padding: 1.2rem 5rem 1.2rem 1.2rem;
+    margin-right: 1rem;
+    outline: #798c99; 
+    font-size: 1.4rem;
+
+    &:focus {
+        outline: none;
+        border: 1px solid #798c99;
+    }
+}
+
+.subscribe_btn {
+  background-color: #0896fc;
+  color: #fff;
+  padding: 1.2rem 2.5rem;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.cards_section {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  height: 42rem;
+  margin-right: 7rem;
+  transition: all 0.5s ease;
+
+  &:hover {
+    box-shadow: 0 1.2rem 2.4rem -1rem rgba(48,54,77,0.3);
+    transform: translate(0,-1rem);
+  }
+}
+
+.card--img {
+  height: 20rem;
+}
+
+.card--category {
+  color: #0896fc;
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 1.6rem;
+  font-weight: lighter;
+}
+
+.card--desc {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.card--footer {
+  color: #798c99;
+  text-align: center;
+  margin-top: 1.6rem;
+  font-size: 1.4rem;
+}
